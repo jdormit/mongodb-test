@@ -1,0 +1,33 @@
+body {
+	margin: 25px 0;
+	text-align: center;
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+	height: 40px;
+	width: 80%;
+	margin: 12px 0;
+	font-size: 24px;
+}
+
+input[type=submit] {
+	background-color: #18B20A
+}
+
+input[type=submit]:hover {
+	border-color: #B2006E
+}
+
+button {
+	height: 40px;
+	width: 80%;
+	margin: 12px 0;	
+	font-size: 24px;
+	background-color: #18B20A
+}
+
+button:hover {
+	border-color: #B2006E
+}

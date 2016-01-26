@@ -2,20 +2,26 @@
 <html>
 	<head>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script src="https://cdn.socket.io/socket.io-1.0.0.js"></script>
 		<script src=".\scripts\form_input.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
 		<form>
 			Name:
 			<br>
-			<input type="text" name="full_name">
+			<input type="text" name="full_name" id="full_name" autocomplete='off'>
 			<br>
 			Adjective:<br>
-			<input type="text" name="adjective">
+			<input type="text" name="adjective" id="adjective" autocomplete='off'>
 			<br>
 			<div id="description"></div>
 			<br>
 			<input type="submit" value="Send it!">
+			<br>
 		</form>
+		<br>
+		<button type="button" id="retrieve">Retrieve all entries</button>
+		<div id='results'></div>
 	</body>
 </html>
